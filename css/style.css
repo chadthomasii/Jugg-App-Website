@@ -1,8 +1,90 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
 
-html,body
+
+
+html, body{
+  
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+}
+
+/*--- Hero  --*/
+
+
+.intro{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background: url("../img/party.jpg") no-repeat ;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), rgba(0,0,0,0.8) url("../img/party.jpg") no-repeat 50% 100%;
+    display: table;
+    background-size: cover;
+ 
+    
+}
+
+
+
+.nav
+{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;  
+    color: white;
+    justify-content: space-between;
+}
+
+.nav ul
 {
     margin: 0;
     padding: 0;
-   
+    list-style: none;
+    align-self: center;  
+}
+
+.nav li
+{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+}
+
+.content div
+{
+    padding: 20px;
+}
+
+#app-logo
+{
+    width: 200px;
+    height: auto;
+}
+
+.content div img
+{
+    margin: 0 auto;
+    text-align: center;
+    height: 70%;
+    width: 70%;
+    display: block;
+
+}
+.content div h1
+{
+    text-align: center;
+
 }
