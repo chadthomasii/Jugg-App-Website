@@ -152,7 +152,7 @@ body
 {
     width: 33.33333%;
     text-align: center;
-    padding: 60px;
+    padding: 80px;
     margin: 0 auto;
     
 }
@@ -180,6 +180,24 @@ body
     margin-top: 25px;
    
 }
+
+/********************
+    Video
+
+********************/
+#video
+{
+    background-color: #eeeeee;
+    text-align: center;
+    
+}
+
+#video video
+{
+    display: inline;
+    padding: 30px;
+}
+
 
 
 /********************
@@ -395,6 +413,18 @@ footer h1 a:hover
         text-align: center;
         margin-top: 25px;
     
+    }
+
+    /********************
+        Video
+
+    ********************/
+
+    #video video
+    {
+
+        height: 300;
+        width: 300;
     }
 
 
