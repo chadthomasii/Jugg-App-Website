@@ -48,6 +48,7 @@ body
 .nav a
 {
     padding: 0 20px;
+    color: white;
    
 }
 
@@ -225,6 +226,28 @@ footer h1 a:hover
 
 ********************/
 
+@media (max-height: 660px) 
+{
+    .content
+    {  
+        height: 400px; 
+    }
+
+    #phone-container
+    {
+        height: 400px;
+        width: 500px;
+        
+    }
+
+    #phone-screen
+    {
+        height: 400px;
+        width: 500px;
+    }
+        
+}
+
 @media (max-width: 870px) 
 {
 
@@ -340,6 +363,12 @@ footer h1 a:hover
         Footer
 
     ********************/
-
+    footer h1
+    {
+        padding: 0 8px;
+        font-size: 1.5em;
+        
+    
+    }
   
 }
